@@ -139,7 +139,7 @@
 // #define OPTION_BUTTON_RELEASE_NO_SLOWDOWN  // disables slowdown when CW or CCW button is released, or stop button is depressed
 #define OPTION_SYNC_RTC_TO_GPS // if both realtime clock and GPS are present, synchronize realtime clock to GPS
 
-#define OPTION_DISPLAY_STATUS
+//#define OPTION_DISPLAY_STATUS
 #define OPTION_DISPLAY_HEADING
 #define OPTION_DISPLAY_HEADING_AZ_ONLY
 #define OPTION_DISPLAY_HEADING_EL_ONLY
