@@ -6,7 +6,7 @@
 
 /* main features */
 
-// #define FEATURE_ELEVATION_CONTROL      // uncomment this for AZ/EL rotators
+#define FEATURE_ELEVATION_CONTROL      // uncomment this for AZ/EL rotators
 #define FEATURE_YAESU_EMULATION           // uncomment this for Yaesu GS-232 emulation on control port
 // #define FEATURE_EASYCOM_EMULATION      // Easycom protocol emulation on control port
 // #define FEATURE_DCU_1_EMULATION        // DCU-1 protocol emulation on control port (only supports azimuth only systems)
@@ -63,7 +63,7 @@
 // #define FEATURE_AZ_POSITION_MECHASOLUTION_QMC5883   // QMC5883 digital compass support using Mechasolution library at https://github.com/keepworking/Mecha_QMC5883L
 
 
-// #define FEATURE_EL_POSITION_POTENTIOMETER
+#define FEATURE_EL_POSITION_POTENTIOMETER
 // #define FEATURE_EL_POSITION_ROTARY_ENCODER
 // #define FEATURE_EL_POSITION_ROTARY_ENCODER_USE_PJRC_LIBRARY  // library @ http://www.pjrc.com/teensy/td_libs_Encoder.html  
 // #define FEATURE_EL_POSITION_PULSE_INPUT
@@ -88,7 +88,7 @@
 // #define FEATURE_MIDAS_I2C_DISPLAY
 // #define FEATURE_FABO_LCD_PCF8574_DISPLAY  
 
-// #define FEATURE_NEXTION_DISPLAY  // Documentation: https://github.com/k3ng/k3ng_rotator_controller/wiki/425-Human-Interface:-Nextion-Display
+#define FEATURE_NEXTION_DISPLAY  // Documentation: https://github.com/k3ng/k3ng_rotator_controller/wiki/425-Human-Interface:-Nextion-Display
 
 // #define FEATURE_ANALOG_OUTPUT_PINS
 
